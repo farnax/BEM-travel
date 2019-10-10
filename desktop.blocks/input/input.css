@@ -1,0 +1,31 @@
+.input_theme_islands {
+  font-family: 'Roboto', sans-serif;
+  width: 310px;
+  height: 46px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.input__control {
+  width: 320px;
+  height: 46px;
+  border: none;
+  font-size: 20px;
+  padding-left: 10px;
+  border: 1px solid #19242e;
+  box-sizing: border-box;
+  background-size: 22px 22px;
+  background-repeat: no-repeat;
+  background-position: 280px;
+}
+.input_info_destination .input__control{
+  background-image: url(world.svg);
+}
+.input__control:focus {
+  outline: none;
+  border: 1px solid #19242e;
+}
+
+
+
+
+

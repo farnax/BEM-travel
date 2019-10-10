@@ -1,0 +1,65 @@
+.content_type_holidays{
+  padding: 0;
+}
+.content_type_holidays .content__inner {
+  background: url(content__holidays_bg.jpg);
+}
+.content__holidays {
+  margin: 0 250px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.content__holidays .content__item {
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  text-align: center;
+  display: inline-block;
+}
+.content__holidays .content__title {
+  margin-top: 180px;
+}
+.content__holidays .content__item {
+  background-repeat: no-repeat;
+  background-position: 22px 0px;
+}
+.content__holidays .content__item_status_active {
+  color: #1dd2af;
+}
+.content__holidays .content__item:nth-child(1) {
+  background-image: url('content__holidays_cruise.png');
+}
+.content__holidays .content__item_status_active.content__item:nth-child(1) {
+  background-image: url('content__holidays_cruiseActive.png');
+}
+.content__holidays .content__item:nth-child(2) {
+  background-image: url('content__holidays_city.png');
+}
+.content__holidays .content__item_status_active.content__item:nth-child(2) {
+  background-image: url('content__holidays_cityActive.png');
+}
+.content__holidays .content__item:nth-child(3) {
+  background-image: url('content__holidays_honeymoon.png');
+}
+.content__holidays .content__item_status_active.content__item:nth-child(3) {
+   background-image: url('content__holidays_honeymoonActive.png');
+}
+.content__holidays .content__item:nth-child(4) {
+  background-image: url('content__holidays_adventure.png');
+}
+.content__holidays .content__item_status_active.content__item:nth-child(4) {
+   background-image: url('content__holidays_advendureActive.png');
+}
+.content__holidays .content__item:nth-child(5) {
+  background-image: url('content__holidays_safari.png');
+}
+.content__holidays .content__item_status_active.content__item:nth-child(5) {
+   background-image: url('content__holidays_safariActive.png');
+}
+.content__holidays .content__item:nth-child(6) {
+  background-image: url('content__holidays_beach.png');
+}
+.content__holidays .content__item_status_active.content__item:nth-child(6) {
+   background-image: url('content__holidays_beachActive.png');
+}

@@ -1,0 +1,13 @@
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.link:visited {
+  color: #fff;
+  text-decoration: none;
+}
+.link:active, .link:focus {
+  color: #1dd2af;
+  outline: none;
+}
+

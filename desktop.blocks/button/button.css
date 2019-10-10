@@ -1,0 +1,46 @@
+.button {
+  background-color: Transparent;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+}
+.button:active {
+  background-color: #1dd2af;
+  border:  2px solid #1dd2af;
+  outline: none;
+  opacity: 1;
+}
+.button:focus {
+  outline: none;
+}
+.button_slider_none {
+  display: none;
+}
+.button_style_arrow {
+  position: absolute;
+  top: 75px;
+  width: 80px;
+  height: 80px;
+  opacity: 0.6;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none;
+  background-size: 20px 25px;
+  background-repeat: no-repeat;
+}
+.button_style_arrow:active, .button_style_arrow:focus {
+  border: none;
+}
+.button_arrow_arrow-prev {
+  left:-475px;
+  background-image: url(arrow-prev.svg);
+  background-position: 25px;
+}
+.button_arrow_arrow-next {
+  right: -475px;
+  background-image: url(arrow-next.svg);
+  background-position:35px;
+}
+
+
+
+

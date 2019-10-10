@@ -1,0 +1,27 @@
+.text__inner {
+  width: 590px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text__title {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0 0 15px 0;	
+  color: #2c3e50;
+}
+.text__info {
+  font-size: 16px;
+  margin: 0;
+  color: #626262;
+}
+.text__title_type_holidays {
+  color: #FFF;
+}
+.text__info_type_holidays {
+  color: #9eafc0;
+}

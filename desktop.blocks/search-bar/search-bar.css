@@ -1,0 +1,7 @@
+.search-bar__inner {
+  height: 100px;
+  padding: 25px 265px;
+  box-sizing: border-box;
+  border-top: 1px solid #3a4e61;
+}
+

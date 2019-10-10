@@ -1,0 +1,35 @@
+.content__offers {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.content__offers .content__item {
+  width: 275px;
+  height: 260px;
+  box-sizing: border-box;
+  display: inline-block;
+  background: #EEE;
+  color: #626262;
+  border: 5px solid #eee;
+  border-radius: 10px;
+  font-size: 13px;
+}
+.content__offers .content__item:active ,.content__item:focus {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  border: 5px solid #1dd2af;
+  background: #2C3E50;
+  color: #fff;
+}
+.content__offers .content__image {
+  width: 265px;
+  height: 200px;
+}
+.content__offers .content__title {
+  margin: 2% 0 3px 15px;
+}
+.content__offers .content__info {
+  margin: 0 15px;
+}

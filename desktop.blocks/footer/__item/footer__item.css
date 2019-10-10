@@ -1,0 +1,14 @@
+.footer__item {
+  width: 290px;
+  height: 290px;
+  padding: 60px 30px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+}
+.footer__item .social-network {
+  height: 30px;
+}
+.footer__item .social-network__item {
+  border: none;
+}

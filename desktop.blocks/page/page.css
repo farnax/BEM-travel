@@ -1,0 +1,11 @@
+.page {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  background: #2c3e50;
+  color: #fff;
+  margin: 0;
+}
+.page__inner {
+  width: 1700px;
+  margin: 0 auto;
+}

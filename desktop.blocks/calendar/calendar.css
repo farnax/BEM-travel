@@ -1,0 +1,29 @@
+.calendar {
+  padding: 12px;
+}
+.calendar_theme_islands {
+  color: #19242e;
+  width: 296px;
+  font-weight: 20px;
+}
+.calendar__title {
+  line-height: 16px;
+  margin-bottom: 8px;
+}
+.calendar__name {
+  text-align: center;
+}
+.calendar .calendar__day_type_off .calendar__inner,
+.calendar .calendar__day_type_weekend-off .calendar__inner,
+.calendar__arrow_disabled_yes
+{
+  cursor: default;
+  opacity: .3;
+}
+.calendar__layout {
+  border-spacing: 0;
+  border-collapse: separate;
+}
+.calendar_theme_islands .calendar__layout{
+  padding-left: 50px;
+}

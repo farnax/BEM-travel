@@ -1,0 +1,32 @@
+.authorization {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.authorization__item { 
+  padding: 12px 15px 12px 40px;
+  border-right: 1px solid #17202a;
+  color: #fff;
+  text-decoration: none;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: 15px;
+}
+.authorization__item:active, .authorization__item:focus {
+  color: #1dd2af;
+  outline: none;
+}
+.authorization__item:first-child {
+  border-left: 1px solid #17202a;
+}
+.authorization__item:last-child {
+  padding: 12px 15px;
+}
+.authorization__item_icon_person {
+  background-image: url(authorization__item_icon_person.svg);
+}
+.authorization__item_icon_note {
+  background-image: url(authorization__item_icon_note.svg);
+}

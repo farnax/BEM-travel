@@ -1,0 +1,43 @@
+.navigation {
+  background: #FFF;
+  border-top: 1px solid #e0dfdf;
+  border-bottom: 3px solid #29404b;
+}
+.navigation__inner {
+  padding: 25px 265px;
+  box-sizing: border-box;
+  height: 90px;
+  color: #5d6e80;
+}
+.navigation__button.button {
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: none;
+  background-image: url('../button/finder.svg');
+  background-size: 42px 42px;
+  background-repeat: no-repeat;
+}
+.navigation__button.button:active, .navigation__button.button:focus {
+   background-color: Transparent;
+   border: none;
+}
+.navigation__button.button_notShow {
+  display: none;
+}
+.navigation__input {
+  border: none;
+  outline: none;
+}
+.navigation__input .input__control {
+  font-weight: 600;
+  font-size: 15px;
+}
+.navigation__input .input__control:focus{
+  outline: none;
+}
+.navigation__input.input_notShow {
+  display: none;
+}
+
+

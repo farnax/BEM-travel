@@ -1,0 +1,51 @@
+.footer__inner {
+  height: 445px;
+  font-size: 13px;
+  color: #cacfd3; 
+  text-align: center;
+}
+.footer__title {
+  margin: 0;
+  padding-bottom: 15px;
+  font-weight: 700;
+  font-size: 25px;
+  color: #1dd2af;
+}
+.footer__info {
+  text-align: justify;
+  font-weight: 500;
+  margin: 0;
+  padding-bottom: 15px;
+}
+.footer__date {
+  font-weight: 300;
+  color: #1fbea2;
+  margin: 0;
+}
+.footer__email {
+  color: #1fbea2;
+  padding-bottom: 15px;
+}
+.footer__form {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__form .input__control {
+  width: 145px;
+  height: 30px;
+  font-size: 13px;
+}
+.footer__form .form__button {
+  width: 50px;
+  height: 30px;
+}
+.footer__image {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #fff;
+}
+.footer__line {
+  height: 0;
+  border-bottom: 1px solid #394c5f;
+  margin: 55px 0 55px 0;
+}

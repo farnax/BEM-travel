@@ -1,0 +1,32 @@
+.content__reviews {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;	
+}
+.content__reviews .content__item {
+  width: 475px;
+  height: 100px;
+  display: inline-block;
+  padding: 20px;
+  color: #4d4d4d;
+  border: 1px solid #dedede;
+  font-weight: 500;
+  opacity: 0.4;
+}
+.content__reviews .content__item:active {
+  box-shadow: 0 4px 0 0 #1dd2af inset;
+  opacity: 1;
+}
+.content__review {
+  margin: 0 0 4px 0;
+  text-align: justify;
+}
+.content__client {
+  margin: 0 0 1px 0;
+  color: #1DD2AF;
+}
+.content__location {
+  margin: 0;
+  color: #BCBCBC;
+}

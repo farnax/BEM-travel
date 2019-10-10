@@ -1,0 +1,10 @@
+.calendar__dayname {
+    font-weight: normal;
+    line-height: 16px;
+    color: #19242e;
+    cursor: default;
+    text-align: center;
+}
+.calendar__dayname_type_weekend {
+    color: #d00;
+}

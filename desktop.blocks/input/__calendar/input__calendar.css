@@ -1,0 +1,12 @@
+.input__calendar {
+    position: absolute;
+    z-index: 4;
+    top: 12px;
+    right: 16px;
+    width: 22px;
+    height: 22px;
+    opacity: 1;
+    background: url(input__calendar.svg);
+    background-size: 22px 22px;
+    background-repeat: no-repeat;
+}

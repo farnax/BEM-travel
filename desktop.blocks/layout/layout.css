@@ -1,0 +1,30 @@
+.layout {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.layout__left {
+  display: flex;
+  align-items: center;
+}
+.layout__right {
+  display: flex;
+  align-items: center;
+}
+.layout__text {
+  font-size: 22px;
+  padding-right: 20px;
+}
+.layout__text_theme_sf-r {
+  opacity: 0.5;
+}
+.layout__text_theme_sf-b {
+  font-size: 25px;
+  font-weight: 700;
+}
+.layout__line {
+  width: 1px;
+  height: 99px;
+  border-left: 1px solid #36495c;
+}

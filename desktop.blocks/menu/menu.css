@@ -1,0 +1,16 @@
+.menu {
+  display: flex;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.menu__item {
+  padding-right: 35px;
+  color: #5d6e80;
+  text-decoration: none;
+}
+.menu__item:active, .menu__item:focus {
+  color: #1dd2af;
+  outline: none;
+}
